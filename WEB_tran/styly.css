@@ -1,0 +1,74 @@
+.menu{
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    background: #676767;
+}
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    display: block;
+    padding: 0.8rem 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.menu li a:hover{
+    background: #4a90e2;
+    transform: scale(1.08);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+/* Tlačítko ChatGPT */
+.cool-btn {
+    padding: 12px 28px;
+    font-size: 18px;
+    color: white;
+    background: #4a90e2;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.cool-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+.cool-btn:active {
+    transform: scale(0.95);
+}
+
+/* Tabulka ChatGPT */
+.custom-table {
+    width: 80%;
+    margin: left;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.custom-table th, .custom-table td {
+    padding: 12px 20px;
+    text-align: left;
+}
+
+.custom-table thead {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #d0e7ff;
+    transition: 0.3s;
+}
+
+
